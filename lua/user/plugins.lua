@@ -20,6 +20,12 @@ lvim.plugins = {
     end,
   },
 
+  -- nvim-dap configs on a per-project basis
+  {
+    'ldelossa/nvim-dap-projects',
+    config = function() end,
+  },
+
   -- view undo history
   'mbbill/undotree',
 

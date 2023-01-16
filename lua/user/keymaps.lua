@@ -15,7 +15,3 @@ vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], { noremap = true, silent = true })
 -- delete now for use with github copilot plugin
 vim.keymap.del('i', 'M-j')
 vim.keymap.del('i', 'M-k')
-
-lvim.builtin.which_key.mappings.v = { '<C-w>v', 'Vertical split' }
-
-lvim.builtin.which_key.vmappings.h = { [[y:let @/=expand("<C-R>"") <bar> :set hls <CR>]], 'Highlight visual text' }
