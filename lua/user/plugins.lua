@@ -140,7 +140,7 @@ lvim.plugins = {
               accept_line = false,
               next = '<M-j>',
               prev = '<M-k>',
-              dismiss = '<C-h>',
+              dismiss = '<M-h>',
             },
           },
         })

@@ -20,6 +20,7 @@ vim.opt.termguicolors = true
 
 vim.opt.list = true
 vim.opt.listchars = 'space:·'
+vim.opt.fillchars = 'diff:╱'
 vim.opt.showtabline = 0
 vim.opt.timeoutlen = 500
 

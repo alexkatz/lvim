@@ -7,7 +7,12 @@ lvim.builtin.which_key.vmappings.h = { [[y:let @/=fnameescape("<C-R>"") <bar> :s
 
 -- leader w or b to eliminate all but current window or buffer
 lvim.builtin.which_key.mappings.o = {
-  name = 'Only',
-  w = { '<Cmd>only<CR>', 'Window' },
-  b = { '<Cmd>BufferLineCloseLeft<CR> <Cmd>BufferLineCloseRight<CR>', 'Buffer' },
+  name = '+Only',
+  w = { '<Cmd>only<CR>', 'Make only window' },
+  b = { '<Cmd>BufferLineCloseLeft<CR> <Cmd>BufferLineCloseRight<CR>', 'Make only buffer' },
+}
+
+lvim.builtin.which_key.mappings.W = {
+  '<Cmd>wa<CR>',
+  'Save All Buffers',
 }
