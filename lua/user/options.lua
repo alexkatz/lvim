@@ -8,6 +8,7 @@ lvim.colorscheme = 'arctic'
 lvim.builtin.breadcrumbs.active = true
 lvim.builtin.terminal.active = true
 lvim.builtin.treesitter.matchup.enable = true
+lvim.builtin.nvimtree.setup.view.side = 'left'
 
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2

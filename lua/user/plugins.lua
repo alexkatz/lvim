@@ -100,8 +100,11 @@ lvim.plugins = {
   -- diagnostics, references
   {
     'folke/trouble.nvim',
-    requires = 'kyazdani42/nvim-web-devicons',
+    requires = 'nvim-tree/nvim-web-devicons',
     cmd = 'TroubleToggle',
+    config = function()
+      require('trouble').setup({})
+    end,
   },
 
   -- kitty config highlighting

@@ -9,7 +9,6 @@ lvim.builtin.telescope.defaults.file_ignore_patterns = {
   '%.otf',
   '%.ttf',
   '%.webp',
-  '.dart_tool/',
   '.vscode/',
   'build/',
   'env/',
@@ -21,7 +20,7 @@ lvim.builtin.telescope.defaults.file_ignore_patterns = {
 lvim.builtin.telescope.pickers.buffers.initial_mode = 'insert'
 
 lvim.builtin.telescope.defaults.layout_config = {
-  center = { width = 0.50 },
+  center = { width = 0.60 },
 }
 
 local actions = require('telescope.actions')
@@ -36,5 +35,3 @@ lvim.builtin.telescope.defaults.mappings = {
 
 require('telescope').load_extension('ui-select')
 require('telescope').load_extension('undo')
-
-lvim.builtin.which_key.mappings.s.u = { '<Cmd>Telescope undo<CR>', 'Undo Tree' }
